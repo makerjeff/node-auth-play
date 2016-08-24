@@ -6,8 +6,23 @@ module.exports = function(app, passport) {
     // ==============================
     // HOME PAGE (with login) =======
     // ==============================
+    // 2016.AUG.24: modifying to check if there's a req.user, if so, go straight to profile.
+    // NOTE: don't forget to pass the req.user object to the front end.
     app.get('/', function(req, res){
-        res.render('index.ejs');
+
+        if(!req.user) {
+            res.render('index.ejs', {
+                user: req.user  //get the user out of the session and pass to template
+            });
+        } else {
+            res.render('profile.ejs', {
+                user: req.user  //get the user out of the session and pass to template
+
+            });
+            console.log('logged in with this user: ');
+            console.log(req.user);
+        }
+
     });
 
     // ==============================
