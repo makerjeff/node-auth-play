@@ -5,7 +5,11 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="ejs-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="node-auth-play node_modules" level="project" />
     <orderEntry type="library" name="mongoose-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="passport-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="passport-local-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="mongodb-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="node-auth-play node_modules" level="project" />
   </component>
 </module>
