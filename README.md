@@ -3,7 +3,9 @@ Experimenting with Node authentication.
 
 
 ## Reference
-[Easy Node Authentication](https://scotch.io/tutorials/easy-node-authentication-setup-and-local)
+- [Easy Node Authentication](https://scotch.io/tutorials/easy-node-authentication-setup-and-local)(tutorial)
+- [Passport.JS Docs](http://passportjs.org/docs): (reference)
 
 ## Notes
 - Users FONT AWESOME and Bootstrap!
+- Using [RoboMongo](http://robomongo.org/) for MongoDB management.

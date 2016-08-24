@@ -20,7 +20,7 @@ var configDB = require('./config/database.js');
 // configuration =================================================================
 mongoose.connect(configDB.url); //connect to the database
 
-//require('./config/passport')(passport);   //pass passport for config (TODO: why is this commented?)
+require('./config/passport')(passport);   //pass passport for config
 
 //setup express app
 app.use(morgan('dev')); //log every-zang.
